@@ -4,7 +4,7 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
         List<Figure> list=new ArrayList<>();
-       int c=5;
+       int c=((int) Math.random()+1);
        for (int i=0;i<c;i++){
            list.add(getFigure((int) (Math.random()*5)));
        }
